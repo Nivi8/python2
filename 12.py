@@ -1,0 +1,11 @@
+h1=int(input())
+temp=h1
+val1=0
+while(h1>0):
+     n=h1%10
+     val1=val1*10+n
+     h1=h1//10
+if(temp==val1):
+     print("yes")
+else:
+     print("no")
