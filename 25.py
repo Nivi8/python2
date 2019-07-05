@@ -1,0 +1,5 @@
+j12=int(input())
+j21=list(map(int,input().split()[:j12]))
+j21.sort()
+s1=int((len(j21))/2)
+print(j21[s1])
