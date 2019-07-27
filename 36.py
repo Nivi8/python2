@@ -1,8 +1,8 @@
-d=input()
-t=0
-for i in range(len(d)):
-  if(d[i].isdigit() or d[i].isalpha() or d[i]==(" ")):
+e=input()
+s=0
+for i in range(len(e)):
+  if(e[i].isdigit() or e[i].isalpha() or e[i]==(" ")):
     continue
   else:
-    t+=1
-print(t)
+    s+=1
+print(s)
