@@ -1,0 +1,12 @@
+p=int(input())
+j1=1
+j2=1
+count=0
+if(p=='0'):
+   print("0")
+while(count<p):
+   print(j1,end='')
+   j3=j1+j2
+   j1=j2
+   j2=j3
+   count+=1
